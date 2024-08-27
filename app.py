@@ -25,7 +25,7 @@ image_input = st.file_uploader("Choose an image")
 
 if image_input:
     st.image(image_input)
-    user_input = st.text_input("Enter text here")
+    user_input = st.text_input("ask anything related to uploaded image")
 
     if st.button("Click Here"):
         try:
