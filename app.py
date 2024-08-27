@@ -21,7 +21,7 @@ def generate_gemini_content(input_text, image):
 
 st.title("Image Descriptor Application")
 
-image_input = st.file_uploader("Choose an image")
+image_input = st.file_uploader("Choose an image",type=["'jpg","jpeg","png"])
 
 if image_input:
     st.image(image_input)
